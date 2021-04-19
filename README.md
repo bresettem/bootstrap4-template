@@ -1,8 +1,8 @@
 Bootstrap 4 Template
-1. Run `yarn install --check-files`
-2. `sudo service postgresql start`
-3. `bin-webpack-dev-server`
-4. Create app/assets/images directory `mkdir app/assets/images`
+1. Create app/assets/images directory `mkdir app/assets/images`
+2. Run `yarn install --check-files`
+3. `sudo service postgresql start`
+4. `bin/webpack-dev-server`
 5. `rails s`
 6. Good Luck!
 
