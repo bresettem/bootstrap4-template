@@ -11,7 +11,6 @@ require('jquery')
 require("bootstrap")
 
 import '../stylesheets/application';
-import '../../../vendor/css/icons.css'
 
 document.addEventListener("turbolinks:load", function () {
     $(function () {
@@ -28,5 +27,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
 // or the `imagePath` JavaScript helper below.
 //
-const images = require.context('../../assets/images', true)
-const imagePath = (name) => images(name, true)
+// Make sure to create the images folder
+// const images = require.context('../../assets/images', true)
+// const imagePath = (name) => images(name, true)

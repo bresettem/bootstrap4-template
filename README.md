@@ -1,7 +1,9 @@
 Bootstrap 4 Template
-1. Run `````yarn install --check-files`````
-2. ``sudo service postgresql start``
-3. Should work. Good Luck!
+1. Run `yarn install --check-files`
+2. `sudo service postgresql start`
+3. `bin-webpack-dev-server`
+4. `rails s`
+5. Good Luck!
 
 **Specs**
 1. Rails 6.0.3.4
