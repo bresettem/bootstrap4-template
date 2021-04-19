@@ -28,5 +28,5 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // or the `imagePath` JavaScript helper below.
 //
 // Make sure to create the images folder
-// const images = require.context('../../assets/images', true)
+const images = require.context('../../assets/images', true)
 // const imagePath = (name) => images(name, true)
